@@ -10,8 +10,8 @@ while True:
         break
     else:
         price = float(input(f'Enter the price of a {food}: $'))
-        foods.append(food)
-        prices.append(price)
+        foods.append(food) # food adds to the foods list
+        prices.append(price) # Price adds to the prices list
 
 print("----- YOUR CART -----")
 for food in foods:
